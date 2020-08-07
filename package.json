@@ -1,0 +1,31 @@
+{
+  "name": "game-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.14.2",
+    "cookie-parser": "",
+    "cors": "^2.8.5",
+    "express": "^4.13.3",
+    "express-session": "",
+    "faye": "",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "",
+    "passport": "^0.4.1",
+    "passport-http": "",
+    "passport-jwt": "^1.2.1",
+    "passport-local": ""
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
